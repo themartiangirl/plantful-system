@@ -23,16 +23,28 @@ FCM bb
 ---
 
 ## Getting Started
+
 ### Clone the Repository
 ```bash
 git clone git@github.com:themartiangirl/plantful-system.git
 cd plantful-system
-
-
+```
 
 ### Install Dependencies
+Please make sure Node.js and npm were installed. Then run:
 ```bash
 npm install
+```
+
+### Envirnment Setup
+Create a `.env` file in the root directly with the following variables: 
+```bash
+MONGO_URI=your_mongodb_connection_string
+FIREBASE_SERVER_KEY=your_firebase_server_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_PUBLIC_KEY=your_stripe_public_key
+```
+
 
 
 
