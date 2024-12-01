@@ -45,6 +45,68 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 STRIPE_PUBLIC_KEY=your_stripe_public_key
 ```
 
+### Run
+```bash
+npm start
+```
+
+
+
+
+## Contribution Guidelines
+1. **Branching Model**:
+   - Use `feature/<feature-name>` for new features.
+   - Use `bugfix/<issue-name>` for bug fixes.
+   - Merge into `main` via pull requests after approval.
+
+2. **Code Standards**:
+   - Follow the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
+   - Ensure code is linted using ESLint before commits.
+
+3. **Testing**:
+   - Write unit tests for all new features using Jest.
+   - Run tests locally before pushing changes:
+     ```bash
+     npm test
+     ```
+
+4. **Commit Message Format**:
+   - Use descriptive and concise messages.
+   - Example:
+     ```bash
+     git commit -m "Add subscription management API"
+     ```
+
+---
+
+## Troubleshooting
+### Common Issues
+- **Environment Variables Missing**:
+  Ensure `.env` is correctly set up.
+- **Database Connection Fails**:
+  Verify the `MONGO_URI` and that the database server is running.
+
+### Debugging Tools
+- Use `console.log` for local debugging.
+- For advanced logging, integrate Winston or a similar library.
+
+---
+
+## Roadmap
+### Planned Features
+1. Admin Dashboard Integration
+2. Analytics for Subscription and Sales
+3. Enhanced Product Recommendation Engine
+4. Localization Support for Multi-Language Users
+
+---
+
+## Contacts
+For questions or assistance, reach out to:
+- **Engineering Teamd**: [engineering@beplantful.com](mailto:engineering@beplantful.com)
+- **Product Manager**: [pm@beplantful.com](mailto:pm@beplantful.com)
+
+---
 
 
 
